@@ -39,7 +39,7 @@ cloudflare-ddns.py -z example.com` from your terminal.
 The script will determine your public IP address and automatically update the records along with it and the settings you provided.
 
 If the program encounters an issue while attempting to update Cloudflare's 
-records, you can check the the `logs` folder for more informations.
+records, you can check the `logs` folder for more informations.
 
 Because dynamic IPs can change regularly, it's recommended that you run this
 utility periodically in the background to keep your records up-to-date.
